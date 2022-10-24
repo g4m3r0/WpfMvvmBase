@@ -10,8 +10,10 @@ namespace WpfMvvmBase
 {
     public class NotifiableBaseObject : INotifyPropertyChanged
     {
+        [field: NonSerializedAttribute()]
         public event PropertyChangedEventHandler? PropertyChanged;
 
+        [field: NonSerializedAttribute()]
         protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
