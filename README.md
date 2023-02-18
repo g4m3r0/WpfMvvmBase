@@ -1,4 +1,6 @@
 # WPF MVVM Base Library
+[![NuGet](https://img.shields.io/nuget/v/wk.NuGetBadge.svg)](https://www.nuget.org/packages/GSL.Util.WpfMvvmBase)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/wk.NuGetBadge.svg)](https://www.nuget.org/packages/GSL.Util.WpfMvvmBase)
 
 This library makes it easier to create simple WPF applications using the [MVVM (Model-View-ViewModel)](https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm) pattern.
 
