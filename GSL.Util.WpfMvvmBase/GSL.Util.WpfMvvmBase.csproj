@@ -13,6 +13,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Description>This library makes it easier to create simple WPF applications using the MVVM (Model-View-ViewModel) pattern.</Description>
     <Company>GSoftwareLab</Company>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
