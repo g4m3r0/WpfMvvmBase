@@ -1,4 +1,4 @@
-﻿namespace WpfMvvmBase;
+﻿namespace GSL.Util.WpfMvvmBase;
 
 using System.ComponentModel;
 using System.Runtime.CompilerServices;

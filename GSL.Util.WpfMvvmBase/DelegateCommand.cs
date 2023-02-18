@@ -1,4 +1,4 @@
-﻿namespace WpfMvvmBase;
+﻿namespace GSL.Util.WpfMvvmBase;
 
 using System.Windows.Input;
 

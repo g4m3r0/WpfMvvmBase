@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RepositoryUrl>https://github.com/g4m3r0/WpfMvvmBase</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>wpf mvvm, mvvm base, mvvm</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/g4m3r0/WpfMvvmBase</PackageProjectUrl>
+    <Title>WPF MVVM Base Library</Title>
+  </PropertyGroup>
+
+</Project>
