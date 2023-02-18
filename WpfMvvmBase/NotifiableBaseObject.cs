@@ -1,22 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
+﻿namespace WpfMvvmBase;
+
 using System.ComponentModel;
-using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace WpfMvvmBase
+/// <summary>
+/// Provides the ability to easily implement the INotifyPropertyChanged interface.
+/// </summary>
+public class NotifiableBaseObject : INotifyPropertyChanged
 {
-    public class NotifiableBaseObject : INotifyPropertyChanged
-    {
-        [field: NonSerializedAttribute()]
-        public event PropertyChangedEventHandler? PropertyChanged;
+    /// <summary>
+    /// Occurs when a property value changes.
+    /// </summary>
+    public event PropertyChangedEventHandler? PropertyChanged;
 
-        [field: NonSerializedAttribute()]
-        protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+    /// <summary>
+    /// Occurs when a property value changes.
+    /// </summary>
+    /// <param name="propertyName">Name of the changed property</param>
+    protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null)
+    {
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
 }
